@@ -1,0 +1,53 @@
+/*-----BODY-------*/
+body{
+  background-color: blue;
+}
+
+    /* ----- TÍTULO ----- */
+    h1 {
+      text-align: center;
+      margin: 0;
+      font-size: 35px;
+      color: yellow; /* vermelho Pokémon */
+    }
+
+    /* ----- MENU ----- */
+    .navbar {
+      list-style: none; /* remove bolinhas da lista */
+      display: flex; /* coloca os links lado a lado */
+      gap: 20px; /* espaçamento entre eles */
+      margin: 0;
+      padding: 0;
+    }
+
+    .nav-link {
+      text-decoration: none;
+      color: yellow;
+      font-weight: bold;
+      transition: color;
+    }
+
+    .nav-link:hover{
+      color: red; /* muda de cor ao passar o mouse */
+    }
+
+h2{
+ padding: 15px;
+ text-align: center;
+ color: white;
+
+
+}
+p{
+    padding: 15px;
+    text-align: center;
+    color: white;
+}
+
+button {
+    text-align: center;
+    background-color: green;
+    border-radius: 20px;
+    padding:  10px 30px;  /* aumenta altura e largura */
+    font-size: 1rem;   /* aumenta o texto */
+}
